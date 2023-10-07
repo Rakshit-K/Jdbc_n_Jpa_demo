@@ -1,11 +1,7 @@
 package com.rakshit.jpa.dao;
 
-import java.sql.Connection;
+
 import java.sql.Date;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.List;
 
@@ -17,9 +13,6 @@ import javax.persistence.Query;
 import com.rakshit.jpa.entity.Employee;
 
 public class EmployeeDao {
-	public static Connection connection;
-	public static Statement statement;
-	public static PreparedStatement preparedStatement;
 	public static EntityManagerFactory emf;
 	public static EntityManager em;
 
